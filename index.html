@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil</title>
+    <style>
+        /* Le CSS est intégré ici pour que tu n'aies pas besoin d'un fichier séparé */
+        body {
+            background-color: #F4F4F4;
+            font-family: 'Open Sans', sans-serif;
+            color: #333333;
+            text-align: center;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 700px;
+            max-width: 90%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 4px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .img-circle {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #DD5555;
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        p {
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+
+        .list-inline {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list-inline li {
+            display: inline;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #DD5555;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Remplace le src par le lien d'une image si tu n'as pas de fichier local -->
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80" alt="Ma photo de profil" class="img-circle">
+        
+        <h1>Salut, je suis [Ton Prénom] ! 👋</h1>
+        
+        <p>
+            Bienvenue sur mon profil. Je suis étudiant(e) et j'apprends à coder en HTML et CSS. 
+            J'adore le design, la tech et les voyages.
+        </p>
+
+        <h2>Retrouve-moi sur les réseaux</h2>
+        <ul class="list-inline">
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
